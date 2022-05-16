@@ -1,0 +1,21 @@
+.contener {
+    width:80vw;
+    margin: 10px auto;
+    border: solid 1px darkslategrey;
+    border-radius: 3px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contener>* {
+    margin:5px;
+}
+.contener>*:nth-child(1) {
+    width:70%;
+}
+.contener>*:nth-child(2) {
+    width:20%;
+}
+.contener>*:nth-child(3) {
+    width:93%;
+}
